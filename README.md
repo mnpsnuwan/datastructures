@@ -1,2 +1,2 @@
-# datastructures
-A collection of powerful data structures
+# Data Structures
+A collection of powerful data structures using java
