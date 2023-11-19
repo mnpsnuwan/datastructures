@@ -1,5 +1,9 @@
 package com.mnpsnuwan.datastructures.dynamicarray;
 
+import com.mnpsnuwan.datastructures.utils.ArrayToString;
+
+import java.util.Arrays;
+
 /**
  * Created by IntelliJ IDEA.
  * Project : datastructures
@@ -154,13 +158,9 @@ public class IntArray implements Iterable<Integer>
     @Override
     public String toString()
     {
-        if( len == 0 ) return "[]";
-        else
-        {
-            StringBuilder sb = new StringBuilder( len ).append( "[" );
-            for( int i = 0; i < len - 1; i++ ) sb.append( arr[i] ).append( ", " );
-            return sb.append( arr[len - 1] ).append( "]" ).toString();
-        }
+        Integer[] integers = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        ArrayToString<Integer> arrayToString = new ArrayToString<>();
+        return arrayToString.toString(integers, len);
     }
 
     // Example usage
