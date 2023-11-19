@@ -19,7 +19,8 @@ The dynamic array can grow and shrink in size
 2. Add elements to the underlying static array, keeping track of the number of elements.
 3. If adding another element will exceed the capacity, then create a new static array with twice the capacity and copy the original elements into it.
 
-|           | Static Array | Dynamic Array |
+### Complexity
+| Operation | Static Array | Dynamic Array |
 |-----------|--------------|---------------|
 | Access    | O(1)         | O(1)          |
 | Search    | O(n)         | O(n)          |

@@ -1,2 +1,14 @@
 # Data Structures
 A collection of powerful data structures using java
+
+| Topic      | Class Path                                                                                                                | Unit Test Path                                                                                                            |
+|------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Arrays     | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/main/java/com/mnpsnuwan/datastructures/dynamicarray) | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/test/java/com/mnpsnuwan/datastructures/dynamicarray) |
+| LinkedList |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
+|            |                                                                                                                           |                                                                                                                           |
