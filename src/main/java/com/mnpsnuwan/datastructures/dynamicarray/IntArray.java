@@ -19,7 +19,7 @@ public class IntArray implements Iterable<Integer>
 
     public int[] arr;
     public int len = 0;
-    private int capacity = 0;
+    private int capacity;
 
     // Initialize the array with a default capacity
     public IntArray()
