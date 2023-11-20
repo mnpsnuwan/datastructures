@@ -11,53 +11,62 @@ import java.util.EmptyStackException;
  * Date : 19Nov2023
  * Time : 9:51 PM
  */
-public class ArrayStack<T> implements Stack<T> {
+public class ArrayStack<T> implements Stack<T>
+{
     private int size;
     private int capacity;
     private Object[] data;
 
-    public ArrayStack() {
+    public ArrayStack()
+    {
         capacity = 16;
         data = new Object[capacity];
     }
 
     @Override
-    public int size() {
+    public int size()
+    {
         return size;
     }
 
     @Override
-    public boolean isEmpty() {
+    public boolean isEmpty()
+    {
         return size == 0;
     }
 
     @Override
-    public void push(T elem) {
-        if (size == capacity) {
+    public void push( T elem )
+    {
+        if( size == capacity )
+        {
             increaseCapacity();
         }
         data[size++] = elem;
     }
 
     // Increase the capacity to store more elements.
-    private void increaseCapacity() {
+    private void increaseCapacity()
+    {
         capacity *= 2;
-        data = Arrays.copyOf(data, capacity);
+        data = Arrays.copyOf( data, capacity );
     }
 
     @Override
-    @SuppressWarnings("unchecked")
-    public T pop() {
-        if (isEmpty()) throw new EmptyStackException();
-        T elem = (T) data[--size];
+    @SuppressWarnings( "unchecked" )
+    public T pop()
+    {
+        if( isEmpty() ) throw new EmptyStackException();
+        T elem = ( T ) data[--size];
         data[size] = null;
         return elem;
     }
 
     @Override
-    @SuppressWarnings("unchecked")
-    public T peek() {
-        if (isEmpty()) throw new EmptyStackException();
-        return (T) data[size - 1];
+    @SuppressWarnings( "unchecked" )
+    public T peek()
+    {
+        if( isEmpty() ) throw new EmptyStackException();
+        return ( T ) data[size - 1];
     }
 }
