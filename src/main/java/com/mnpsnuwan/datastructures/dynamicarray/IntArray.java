@@ -158,9 +158,9 @@ public class IntArray implements Iterable<Integer>
     @Override
     public String toString()
     {
-        Integer[] integers = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+        Integer[] integers = Arrays.stream( arr ).boxed().toArray( Integer[]::new );
         ArrayToString<Integer> arrayToString = new ArrayToString<>();
-        return arrayToString.toString(integers, len);
+        return arrayToString.toString( integers, len );
     }
 
     // Example usage

@@ -148,6 +148,6 @@ public class DynamicArray<T> implements Iterable<T>
     public String toString()
     {
         ArrayToString<T> arrayToString = new ArrayToString<>();
-        return arrayToString.toString(arr, len);
+        return arrayToString.toString( arr, len );
     }
 }

@@ -10,7 +10,7 @@ package com.mnpsnuwan.datastructures.utils;
  */
 public class ArrayToString<T>
 {
-    public String toString(T[] arr, int len)
+    public String toString( T[] arr, int len )
     {
         if( len == 0 )
         {

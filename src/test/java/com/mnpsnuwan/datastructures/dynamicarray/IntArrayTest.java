@@ -141,23 +141,25 @@ public class IntArrayTest
         for( int i = 0; i < 100; i++ ) list.removeAt( 0 );
         assertTrue( list.isEmpty() );
     }
-    
+
     @Test
-    public void testBinarySearch(){
+    public void testBinarySearch()
+    {
         IntArray list = new IntArray();
         int[] intArray = { 10, 20, 30, 40, 50 };
         for( int i : intArray ) list.add( i );
 
-        assertEquals( 2,  list.binarySearch( 30 ) );
+        assertEquals( 2, list.binarySearch( 30 ) );
     }
 
     @Test
-    public void testBinarySearch2(){
+    public void testBinarySearch2()
+    {
         IntArray list = new IntArray();
         int[] intArray = { 10, 20, 30, 40, 50 };
         for( int i : intArray ) list.add( i );
 
-        assert  list.binarySearch( 1000 ) < 0;
+        assert list.binarySearch( 1000 ) < 0;
     }
 
     @Test
