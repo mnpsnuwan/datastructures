@@ -1,6 +1,6 @@
 # Priority Queue
 A priority queue is an Abstract Data Type (ADT) that operates similar to a normal queue except that ***each element has a certain priority***. The priority of the elements in the priority queue determine the order in which elements are removed from the PQ.
-**NOTE** - Priority queues only supports **comparable data**, meaning the data inserted into the priority queue must be able to be ordered in some way either from least to greatest or greatest to least. This is so that we are able to assign relative priorities to each element.
+- **NOTE** - Priority queues only supports **comparable data**, meaning the data inserted into the priority queue must be able to be ordered in some way either from least to greatest or greatest to least. This is so that we are able to assign relative priorities to each element.
 
 ## Heap
 A heap is a **tree** based Data Structure that satisfies the **heap invariant** (also called heap priority); If 'A' is a parent node of 'B' then 'A' is ordered with respect to 'B' for all nodes 'A', 'B' in the heap.
