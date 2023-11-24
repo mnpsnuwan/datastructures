@@ -34,3 +34,14 @@
 #### Creating Union Find
 To begin using Union Find, first construct a **bijection** (a mapping) between your objects abd the integers in the range [0, n).
 - **Note**: This step is not necessary in general, but it will allow us to construct an array-based union find.
+
+##### Find Operation
+To **find** which component a particular element belongs to find the root of that component by following the parent nodes until a self loop is reached (a node whose parent is itself).
+
+##### Unit Operation
+To **unify** two elements find which are the root nodes of each component and if the root nodes are different make one of the root nodes be the parent of the other.
+
+***Remarks***
+* In this data structure, we do not "un-union" elements. In general, this would be very inefficient to do since we would have to update all the children of a node.
+* The number of components is equal to the number of roots remaining. Also, remark that the number of root nodes never increases.
+
