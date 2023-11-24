@@ -1,5 +1,5 @@
 # Data Structures
-A collection of powerful data structures using java
+A collection of powerful data structures are using java
 
 | No | Topic         | Class Path                                                                                                                 | Unit Test Path                                                                                                             |
 |----|---------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
@@ -8,3 +8,4 @@ A collection of powerful data structures using java
 | 3  | Stack         | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/main/java/com/mnpsnuwan/datastructures/stack)         | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/test/java/com/mnpsnuwan/datastructures/stack)         |
 | 4  | Queue         | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/main/java/com/mnpsnuwan/datastructures/queue)         | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/test/java/com/mnpsnuwan/datastructures/queue)         |
 | 5  | PriorityQueue | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/main/java/com/mnpsnuwan/datastructures/priorityqueue) | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/test/java/com/mnpsnuwan/datastructures/priorityqueue) |
+| 6  | UnionFind     | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/main/java/com/mnpsnuwan/datastructures/unionfind)     | [Click Me](https://github.com/mnpsnuwan/datastructures/tree/main/src/test/java/com/mnpsnuwan/datastructures/unionfind)     |
