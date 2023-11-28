@@ -10,7 +10,7 @@ If **H(x) = H(y)** then objects x and y **might be equal**, but if **H(x) != H(y
 - **Separate chaining** deals with hash collisions by maintaining a data structure (usually a linked list) to hold all the different values which hashed to a particular value.
 - **Open addressing** deals with hash collisions by finding another place within the hash table for the object to go by offsetting it from the position to which it hashed to.
 
-### Complexity of BSTs
+### Complexity
 
 | Operation | Average | Worst |
 |-----------|---------|-------|
