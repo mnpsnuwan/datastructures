@@ -11,3 +11,4 @@ A collection of powerful data structures are using java
 | 6  | UnionFind        | [Click Me](./src/main/java/com/mnpsnuwan/datastructures/unionfind)         | [Click Me](./src/test/java/com/mnpsnuwan/datastructures/unionfind)        |
 | 7  | BinarySearchTree | [Click Me](./src/main/java/com/mnpsnuwan/datastructures/binarysearchtree)  | [Click Me](./src/test/java/com/mnpsnuwan/datastructures/binarysearchtree) |
 | 8  | HashTable        | [Click Me](./src/main/java/com/mnpsnuwan/datastructures/hashtable)         | [Click Me](./src/test/java/com/mnpsnuwan/datastructures/hashtable)        |
+| 8  | FenwickTree      | [Click Me](./src/main/java/com/mnpsnuwan/datastructures/fenwicktree)       | [Click Me](./src/test/java/com/mnpsnuwan/datastructures/fenwicktree)      |
