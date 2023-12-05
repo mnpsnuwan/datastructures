@@ -50,3 +50,22 @@ ft.get(3); // -7
 ft.get(4); // -14
 ft.get(5); // -15
 ```
+
+### Fenwick Tree - Range Queries & Point Updates
+
+```
+// The values array must be one based
+long[] values = {0,1,2,2,4};
+//               ^ first element does not get used
+  
+FenwickTreeRangeQueryPointUpdate ft = new FenwickTreeRangeQueryPointUpdate(values);
+
+ft.sum(1, 4); // 9, sum all numbers in interval [1, 4] in O(log(n))
+ft.add(3, 1); // Adds +1 to index 3.
+
+ft.sum(1, 4); // 10, sum all numbers in interval [1, 4]
+ft.set(4, 0); // Set index 4  to have value zero.
+
+ft.sum(1, 4); // 6, sum all numbers in interval [1, 4]
+ft.get(2);    // 2, Get the value at index 2, this is the same as .sum(2, 2)
+```
